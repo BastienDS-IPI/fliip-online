@@ -1,0 +1,1 @@
+test load html rand <?= rand(1,6); ?>

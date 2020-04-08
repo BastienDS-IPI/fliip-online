@@ -1,0 +1,49 @@
+.translateX(@pixX) {
+  transform+_: translateX(@pixX);
+}
+.translateY(@pixY) {
+  transform+_: translateY(@pixY);
+}
+.scale(@ratio) {
+  transform+_: scale(@ratio);
+}
+/*
+div[id^="row"] > img:hover {
+	.scale(2);
+} */
+div[id^="row1"] img:hover  {
+	.scale(2);	
+}
+div[id^="row1"]:hover {
+	.translateY(53px);
+}
+
+
+/*
+img[id$="1"]:hover, img[id$="2"]:hover  {
+    .translateX(80);
+}
+img[id$="3"]:hover, img[id$="4"]:hover  {
+    .translateX(-80);
+}
+img[id*="_1"]:hover {
+    .translateY(53);
+	
+}
+img[id*="_3"]:hover {
+    .translateY(-53);
+}
+
+img[id^="card"]:hover {
+	.scale(2);
+}
+*/
+
+img[id^="card"] {
+    width:160px;
+	margin:0px;
+	-webkit-transition: all .1s ease-in-out;
+	-moz-transition: all .1s ease-in-out;
+	-o-transition: all .1s ease-in-out;
+	-ms-transition: all .1s ease-in-out;
+}
